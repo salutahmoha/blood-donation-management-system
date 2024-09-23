@@ -1,0 +1,31 @@
+.password-requirement{
+    line-height: 10px;
+}
+.account-info{
+    display: flex;
+    font-size: 20px;
+}
+
+.account-info p{
+    font-size: 21px;
+}
+.account-info .btnLogin{
+    border: none;
+    background: #fff;
+    font-weight: 600;
+    color: #585757;
+}
+.account-info .btnLogin:hover{
+    text-decoration: underline;
+}
+.password-error-message{
+    color: red;
+}
+
+/*media Query*/
+@media screen and (max-width: 960px) {
+    #Donordetails{
+      margin-left:  auto;
+      margin-right:  auto;
+    }
+}

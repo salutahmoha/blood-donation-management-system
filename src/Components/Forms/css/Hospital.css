@@ -1,0 +1,99 @@
+
+#Admin{
+    width: 800px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: auto;
+    margin-left: 150px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    max-width: 100%;
+    background: #e0dcdc;
+}
+
+#Admin .Admin-icon{
+    margin-bottom: 30px;
+}
+#Admin{
+    text-align: start;
+}
+#Admin .btnAdmin {
+    background: #f03333;
+    color: #fff;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#Admin label{
+    font-size: 22px;
+}
+#Admin input{
+    width: 300px;
+    margin-left: 15px;
+}
+#Admin .row{
+    display: block;
+    margin-left: 20px;
+}
+
+.SignIn-info{
+    display: flex;
+    line-height: 10px;
+}
+.SignIn-info p{
+    font-size: 20px;
+}
+.SignIn-info .btn2{
+    border: none;
+    background-color: #e0dcdc;
+    font-size: 20px;
+    font-weight: 500;
+}
+.SignIn-info .btn2:hover{   
+    text-decoration: underline;
+}
+
+/*media Query*/
+@media only screen and (max-width: 767px) {
+    #Admin{
+        width: auto;
+        margin-left:  20px;
+        margin-right:  20px;
+        padding-left: 0px;
+        height: auto;
+        max-width: 100%;
+    }
+    #Admin img{
+        width: 150px;
+        height: 100px;
+        margin-bottom: 20px;
+    }
+    #Admin label{
+        font-size: 20px;
+    }
+    #Admin .btnAdmin{
+        width: 250px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    #Admin input{
+        width: 250px;
+        margin-left: 10px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #Admin{
+        width: auto;
+        margin-left:  20px;
+        margin-right:  20px;
+        padding-left: 0px;
+        height: 700px;
+    }
+
+}

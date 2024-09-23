@@ -1,0 +1,105 @@
+#Userprivilege {
+    position: relative;
+    height: 580px;
+    max-width: 100%;
+    margin: auto;
+    background-image: url('../../Assets/68.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.text-overlay h2 {
+    font-size: 40px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.text-overlay .first {
+    background: #f03333;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+/* profile */
+
+#profile {
+    padding-top: 30px;
+}
+
+#profile h3 {
+    padding-bottom: 30px;
+}
+
+#profile label {
+    display: block;
+    text-align: start;
+    font-weight: 800px;
+}
+
+#profile input,
+#profile select {
+    display: block;
+    width: 550px;
+    height: 30px;
+    background: transparent;
+    border: 1px 1px 1px 1px solid black;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+#profile textarea{
+    width: 550px;
+}
+#profile img {
+    height: 800px;
+    width: 500px;
+}
+
+#profile .btn2 {
+    background: #f03333;
+    width: 100px;
+    font-size: 600;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.profile-info {
+    line-height: normal;
+}
+.profile-info form{
+    display: block;
+}
+
+/*media Query*/
+@media only screen and (max-width: 767px) {
+    #Userprivilege {
+        max-width: auto;
+    }
+    #Userprivilege h2{
+        font-size: 27px;
+    }
+    #profile{
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+    }
+    #profile img {
+        width: auto;
+        height: 400px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #profile h3 {
+        padding-bottom: 0px;
+    }
+}

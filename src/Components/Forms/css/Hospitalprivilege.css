@@ -1,0 +1,74 @@
+#Adminprivilege{
+    padding-top: 60px;
+}
+#Adminprivilege .search{
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-input{
+    display: block;
+    text-align: start;
+    
+}
+.search-input label{
+    font-size: 20px;
+}
+.search-input select{
+    width: 150px;
+    height: 35px;
+}
+.select-field{
+    width: 400px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+}
+.btnSearch{
+    background: #f03333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 100px;
+    font-size: 20px;
+}
+.btnDelete{
+    background: #f03333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.search-result{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.search-result input, select{
+    height: 40px;
+    background: #eee8e8;
+}
+.search-result textarea{
+    height: 40px;
+    background: #eee8e8;
+}
+#Adminprivilege .search-results{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+/*media queiries*/
+@media only screen and (max-width: 767px) {
+    #Adminprivilege .search{
+        display: block;
+        justify-content: center;
+    }
+    #Adminprivilege .search-input{
+        margin-bottom: 20px;
+    }
+    #Adminprivilege .search-input select{
+        width: 330px;
+        height: 35px;
+    }
+    .search-results{
+        margin-top: 20px;
+    }
+}

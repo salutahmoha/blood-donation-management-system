@@ -1,0 +1,189 @@
+#SendEmail{
+    display: flex;
+    margin: auto;
+}
+#SendEmail .search{
+    display: block;
+    width: 300px;
+}
+
+#SendEmail .form1 .search{
+    display: block;
+}
+#SendEmail .forms{
+    display: flex;
+    height: 230px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#SendEmail .form1{
+    height: 200px;
+    padding-top: 30px;
+}
+.search-input h2, h5{
+    padding-bottom: 10px;
+}
+#SendEmail .form2{
+    height: 230px;
+    padding-left: 120px;
+    display: flex;
+}
+#SendEmail .form2 form{
+    display: flex;
+    padding-top: 90px;
+}
+#SendEmail .form2 h5{
+    text-align: start;
+}
+
+#SendEmail .form2 .email-form input{
+    background-color: gainsboro;
+    margin-bottom: 20px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    height: 38px;
+}
+#SendEmail .form3 .btnSendEmail{
+    background: #f03333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.attach-files{
+    width: 300px;
+    height: 90px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+.attach-files input{
+    padding-top: 12px;
+    padding-left: 5px;
+    width: 300px;
+    border-radius: 5px;
+}
+.form2 .attach-files p{
+    text-align: start;
+}
+.form3{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+.form3 textarea{
+    width: 300px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: none;
+    height: 150px;
+}
+.search-input{
+    display: block;
+    text-align: start;
+}
+
+.search-input label{
+    font-size: 20px;
+}
+.search-input select{
+    width: 150px;
+    height: 30px;
+}
+.search-input input{
+    background-color: gainsboro;
+}
+.btnSearch{
+    background: #f03333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.btnDelete{
+    background: #f03333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.search-result{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-results .column-header {
+    background-color: gainsboro;
+    width: 00px;
+    border: 1px solid black;
+}
+#Contact{
+    margin-top: 10px;
+}
+.search-results{
+    margin-top: 150px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+#SendEmail .search-results{
+    margin-top: 300px;
+}
+
+.donors-count{
+    display: flex;
+   
+    gap: 20px;
+}
+
+.available{
+    width: 230px;
+    height: 100px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.selected{
+    width: 230px;
+    height: 100px;
+    background-color: gainsboro;
+    border-radius: 5px;
+}
+
+.donors-count .placeholder-white{
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+
+
+/*media Query*/
+@media only screen and (max-width: 767px) {
+    #SendEmail .forms{
+        display: block;
+    }
+    #SendEmail .search-results{
+        margin-top: 230px;
+    }
+    #SendEmail .form2{
+        height: 230px;
+        margin-top: 50px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #SendEmail .form1{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .search-results{
+        margin-top: 400px;
+    }
+}
